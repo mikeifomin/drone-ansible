@@ -1,4 +1,3 @@
 FROM python:3.6-jessie  
-RUN pip install ansible
-
-
+RUN pip install ansible \
+                docker-py
