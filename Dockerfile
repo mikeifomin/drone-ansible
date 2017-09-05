@@ -83,4 +83,5 @@ RUN set -ex; \
 RUN pip install --no-cache-dir virtualenv
 
 RUN pip install ansible \
+                requests \ 
                 docker-py
